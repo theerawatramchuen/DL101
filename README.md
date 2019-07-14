@@ -1,9 +1,7 @@
 # DL101 Quick look useful link and command
 
-Current Version
-
+## CUDA and cuDNN Current Version
 CUDA Toolkit 10.0 Archive : cuda_10.0.130_411.31_win10.exe
-
 cuDNN v7.6.1 (June 24, 2019), for CUDA 10.0 for Win10
 
 ## Install Tensorflow-GPU 
