@@ -42,5 +42,5 @@ TensorFlow library (see the following section on how to install TensorFlow)
 Keras library (see the following section on how to install Keras)
 Further details about how to install these requirements are covered in Chapter 1, Setting Up OpenCV.
 The GitHub repository for Mastering OpenCV 4 with Python, which contains all the supporting
-project files necessary to work through the book from the first chapter to the last, can be accessed in h
-ttps://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python.
+project files necessary to work through the book from the first chapter to the last, can be accessed in 
+https://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python.
