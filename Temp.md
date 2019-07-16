@@ -14,10 +14,10 @@ machine learning approaches, which were covered in the Chapter 10, Machine Learn
 classification and object detection. Finally, two deep learning Python libraries (TensorFlow and
 Keras) will be introduced.
 More specifically, the following topics will be tackled in this chapter:
-Deep learning overview for computer vision tasks
-Deep learning in OpenCV
-TensorFlow library
-Keras library
+   Deep learning overview for computer vision tasks
+   Deep learning in OpenCV
+   TensorFlow library
+   Keras library
 In this chapter, you will be introduced to the world of deep learning with OpenCV, and also with
 some deep learning Python libraries (TensorFlow and Keras). In Chapter 13, Mobile and Web
 Computer Vision with Python and OpenCV, you will learn how to create computer vision and deep
