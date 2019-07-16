@@ -17,5 +17,4 @@ pip install --upgrade keras
 
 pip install opencv-python
 
-## Deep Learning Projects Paper with Code
-https://paperswithcode.com/sota?fbclid=IwAR3fHtQgxYhlGfZ1SL9sD2PHTsyqkzaZXKuIGe4UuIx4dUxjzQvK3FAdyak
+## [Deep Learning Projects Paper with Code](https://paperswithcode.com/sota?fbclid=IwAR3fHtQgxYhlGfZ1SL9sD2PHTsyqkzaZXKuIGe4UuIx4dUxjzQvK3FAdyak)
