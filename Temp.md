@@ -27,3 +27,20 @@ In this chapter, you will be introduced to the world of deep learning with OpenC
 some deep learning Python libraries (TensorFlow and Keras). In Chapter 13, Mobile and Web
 Computer Vision with Python and OpenCV, you will learn how to create computer vision and deep
 learning web applications.
+## Technical requirements
+The technical requirements are listed here:
+
+Python and OpenCV
+
+Python-specific IDE
+
+NumPy and Matplotlib packages
+
+Git client
+
+TensorFlow library (see the following section on how to install TensorFlow)
+Keras library (see the following section on how to install Keras)
+Further details about how to install these requirements are covered in Chapter 1, Setting Up OpenCV.
+The GitHub repository for Mastering OpenCV 4 with Python, which contains all the supporting
+project files necessary to work through the book from the first chapter to the last, can be accessed in h
+ttps://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python.
