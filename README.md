@@ -19,5 +19,5 @@ pip install opencv-python
 
 ## [Deep Learning Projects Paper with Code](https://paperswithcode.com/sota?fbclid=IwAR3fHtQgxYhlGfZ1SL9sD2PHTsyqkzaZXKuIGe4UuIx4dUxjzQvK3FAdyak)
 
-## OpenCV PacktPublishing
+## OpenCV PacktPublishing Example Code on Github
 https://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python
