@@ -22,5 +22,5 @@ pip install opencv-python
 ## OpenCV PacktPublishing Example Code on Github
 https://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python
 
-### Sample cv2.VideoCapture() of Opencv
+## Sample cv2.VideoCapture() of Opencv
 https://www.programcreek.com/python/example/85663/cv2.VideoCapture
