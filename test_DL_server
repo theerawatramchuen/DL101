@@ -74,7 +74,75 @@ failed to respond', None, 10060, None))
 
 
 
+8657 [{'Status_Code': 'OK', 'Status_Message': '', 'Class': 'DP', 'Confidential_Level': '1.000', 'Processing_Time': '26.9177', 'Client_ID': 'XXX', 'Timestamp': '2019-12-12 02:09:31'}]
+8658 [{'Status_Code': 'OK', 'Status_Message': '', 'Class': 'DP', 'Confidential_Level': '1.000', 'Processing_Time': '28.27', 'Client_ID': 'XXX', 'Timestamp': '2019-12-12 02:09:41'}]
+8659 [{'Status_Code': 'OK', 'Status_Message': '', 'Class': 'DP', 'Confidential_Level': '1.000', 'Processing_Time': '26.2457', 'Client_ID': 'XXX', 'Timestamp': '2019-12-12 02:09:41'}]
+8660 [{'Status_Code': 'OK', 'Status_Message': '', 'Class': 'DP', 'Confidential_Level': '1.000', 'Processing_Time': '26.2036', 'Client_ID': 'XXX', 'Timestamp': '2019-12-12 02:09:41'}]
+8661 [{'Status_Code': 'OK', 'Status_Message': '', 'Class': 'DP', 'Confidential_Level': '1.000', 'Processing_Time': '26.1901', 'Client_ID': 'XXX', 'Timestamp': '2019-12-12 02:09:41'}]
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\urllib3\util\retry.py", line 368, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:/Users/pc/Desktop/TEST SERVER/client.py", line 8, in <module>
+    response = requests.post(connection_url,data={'Image' : imgcon.encode_img('44_15_1.jpg'),'BOM':'TEST','Operation' : 'WireBond','Process' : 'Auto3OPT','ProcessNO':'Image1','Client_ID':'XXX'})
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\requests\adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+(tf) C:\Users\pc\Desktop\TEST SERVER>
 
 
 
