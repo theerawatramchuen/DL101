@@ -24,3 +24,6 @@ https://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python
 
 ## Sample cv2.VideoCapture() of Opencv
 https://www.programcreek.com/python/example/85663/cv2.VideoCapture
+
+## NVIDIA Deep Learning Example Tensorflow
+https://github.com/NVIDIA/DeepLearningExamples/tree/master/TensorFlow/Classification/RN50v1.5
